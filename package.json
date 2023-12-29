@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon ./src/main.js",
-    "start": "node ./src/main.js"
+    "start": "node ./src/main.js",
+    "server": "pm2 start ./src/main.js"
   },
   "keywords": [],
   "author": "",
